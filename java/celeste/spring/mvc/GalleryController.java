@@ -8,16 +8,16 @@ public class GalleryController {
 
 	@RequestMapping("/gallery/list")
 	public String list() {
-		return "/gallery/list.tiles";
+		return "gallery/list.tiles";
 	}
 	
 	@RequestMapping("/gallery/view")
 	public String view() {
-		return "/gallery/view.tiles";
+		return "gallery/view.tiles";
 	}
 	
 	@RequestMapping("/gallery/write")
 	public String write() {
-		return "/gallery/write.tiles";
+		return "gallery/write.tiles";
 	}
 }
